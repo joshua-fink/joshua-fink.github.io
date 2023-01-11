@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  overflow: hidden;
+}
+
+.webgl {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@font-face {
+  font-family: nunitoSansRegular;
+  src: url("CourierPrime-Regular.7d587257.ttf");
+}
+
+h1 {
+  color: #fff;
+  font-family: nunitoSansRegular;
+  font-size: 3em;
+}
+
+main {
+  width: 100vw;
+  z-index: 99;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+  position: absolute;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
